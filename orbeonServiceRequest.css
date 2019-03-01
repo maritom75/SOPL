@@ -1,9 +1,19 @@
 label {
-color: #ff6600;
+color: #AAAAAA;
 }
 .orbeon .table td {
 line-height:10px;
 }
 .xforms-repeat-selected-item-1 {
 background-color: #ffe0cc;
+}
+
+.fixed_header tbody{
+  display:block;
+  overflow:auto;
+  height:200px;
+  width:100%;
+}
+.fixed_header thead tr{
+  display:block;
 }
