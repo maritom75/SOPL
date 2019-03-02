@@ -17,10 +17,11 @@ background-color: #BBBBBB
   display:block;
 }
 .branches-table th {
-  background-color: rgba(156, 156, 156, 1);
-  color: rgba(245, 245, 245, 1);
-  height: 30px;
+  background-color: #EEEEEE;
+  color: #000000;
+  height: 20px;
   width:6%;
+  font-weight:bold !important;
 }
 .branches-table td {
 width:6%;
@@ -36,4 +37,10 @@ width:41%;
 }
 .branches-actions a {
 color: #ff6600;
+}
+.branch-address-section h6 {
+    background-image: none;
+    background-color: #ffffff;
+    font-weight: bold !important;
+    font-size: 15px !important;
 }
