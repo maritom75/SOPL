@@ -16,9 +16,24 @@ background-color: #BBBBBB
 .fixed-header thead tr{
   display:block;
 }
-.branches-table th, .branches-table td {
+.branches-table th {
+  background-color: rgba(156, 156, 156, 1);
+  color: rgba(245, 245, 245, 1);
+  height: 30px;
+  width:6%;
+}
+.branches-table td {
 width:6%;
 }
 .branches-table .address-cell {
 width:41%;
+}
+.branches-actions {
+    background-color: #eeeeee;
+    height: 20px;
+    padding-top: 10px;
+    margin-top: 5px;
+}
+.branches-actions a {
+color=#ff6600;
 }
