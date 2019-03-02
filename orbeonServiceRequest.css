@@ -39,8 +39,10 @@ width:41%;
 color: #ff6600;
 }
 .branch-address-section h6 {
-    background-image: none;
-    background-color: #ffffff;
+    background-image: none !important;
+    background-color: #ffffff !important;
+}
+.branch-address-section a {
     font-weight: bold !important;
-    font-size: 15px !important;
+    font-size: 14px !important;
 }
