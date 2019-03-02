@@ -31,9 +31,9 @@ width:41%;
 .branches-actions {
     background-color: #eeeeee;
     height: 20px;
-    padding-top: 10px;
+    padding-top: 5px;
     margin-top: 5px;
 }
 .branches-actions a {
-color=#ff6600;
+color: #ff6600;
 }
