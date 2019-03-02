@@ -5,14 +5,20 @@ color: #aaaaaa;
 line-height:10px;
 }
 .xforms-repeat-selected-item-1 {
-background-color: #999999
+background-color: #BBBBBB
 }
-.fixed_header tbody{
+.fixed-header tbody{
   display:block;
   overflow:auto;
   max-height:200px;
   width:100%;
 }
-.fixed_header thead tr{
+.fixed-header thead tr{
   display:block;
+}
+.branches-table th, .branches-table td {
+width:6%;
+}
+.branches-table .address-cell {
+width:41%;
 }
