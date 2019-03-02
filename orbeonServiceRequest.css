@@ -4,9 +4,6 @@ color: #aaaaaa;
 .orbeon .table td {
 line-height:10px;
 }
-.xforms-repeat-selected-item-1 {
-background-color: #BBBBBB
-}
 .fixed-header tbody{
   display:block;
   overflow:auto;
@@ -28,6 +25,9 @@ width:6%;
 }
 .branches-table .address-cell {
 width:41%;
+}
+.branches-table.xforms-repeat-selected-item-1 {
+background-color: #ffe0cc
 }
 .branches-actions {
     background-color: #eeeeee;
