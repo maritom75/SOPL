@@ -1,0 +1,100 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="branches">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="branch" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:byte" name="polesCount"/>
+              <xs:element name="aEnd">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="address">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="postCode"/>
+                          <xs:element type="xs:string" name="voivodeship"/>
+                          <xs:element type="xs:string" name="county"/>
+                          <xs:element type="xs:string" name="province"/>
+                          <xs:element type="xs:string" name="city"/>
+                          <xs:element type="xs:string" name="street"/>
+                          <xs:element type="xs:byte" name="propertyNr"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="connection">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="type"/>
+                          <xs:element type="xs:string" name="description"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="bEnd">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="address">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="postCode"/>
+                          <xs:element type="xs:string" name="voivodeship"/>
+                          <xs:element type="xs:string" name="county"/>
+                          <xs:element type="xs:string" name="province"/>
+                          <xs:element type="xs:string" name="city"/>
+                          <xs:element type="xs:string" name="street"/>
+                          <xs:element type="xs:byte" name="propertyNr"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="connection">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="type"/>
+                          <xs:element type="xs:string" name="description"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="cables">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="cable">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="type"/>
+                          <xs:element type="xs:byte" name="diameter"/>
+                          <xs:element type="xs:string" name="model"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="equipments">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="equipment" maxOccurs="unbounded" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="type"/>
+                          <xs:element type="xs:string" name="location"/>
+                          <xs:element type="xs:byte" name="count"/>
+                          <xs:element type="xs:string" name="model"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
